@@ -1,0 +1,24 @@
+import pandas as pd
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.model_selection import train_test_split
+
+# Sample DataFrame - Replace with your actual data loading step
+data = pd.DataFrame({
+    'Total_Population': [1306784, 1306785, 1306786, 1306787, 1306788],
+    'Population_Change_Percentage_2016_2021': [5.0, 5.1, 5.2, 5.3, 5.4],
+    
+})
+
+# Define features (X) and target (y)
+X = data['Total_Population']
+y = data['Population_Change_Percentage_2016_2021']
+
+# Apply Polynomial Features
+poly = PolynomialFeatures(degree=2, interaction_only=True)
+X_poly = poly.fit_transform(X)
+
+# Perform train-test split
+X_train, X_test, y_train, y_test = train_test_split(X_poly, y, test_size=0.2, random_state=42)
+
+# Now X_poly contains the polynomial features
+print("Polynomial Features: \n", X_poly)
