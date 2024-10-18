@@ -1,0 +1,37 @@
+"Thank you for participating! Your feedback helps improve Calgary's future."
+________________________________________
+Survey Topics & Sample Questions
+1. Affordable Housing
+•	How would you rate the availability of affordable housing in Calgary?
+o	Very Poor / Poor / Neutral / Good / Excellent
+•	What improvements would you suggest for affordable housing?
+(Open-ended response)
+2. Public Safety
+•	How safe do you feel in your community during the day and at night?
+o	Not Safe / Somewhat Safe / Very Safe
+•	What areas of public safety concern you the most?
+o	Traffic Issues
+o	Crime & Vandalism
+o	Emergency Response Times
+(Multiple selections allowed)
+3. Economic Revitalization
+•	How would you rate the effectiveness of Calgary’s current economic policies?
+o	Very Ineffective / Ineffective / Neutral / Effective / Very Effective
+•	What economic changes would you prioritize?
+(Open-ended response)
+4. Public Transit Improvement
+•	How satisfied are you with the current public transit system?
+o	Very Unsatisfied / Unsatisfied / Neutral / Satisfied / Very Satisfied
+•	What features would improve your transit experience?
+(Open-ended response)
+________________________________________
+Dynamic Content Integration
+•	Policy Feedback Prompt:
+After viewing a policy proposal on affordable housing, users will see a pop-up survey:
+o	Do you support the new affordable housing policy? (Yes / No)
+o	Please explain your stance: (Open-ended)
+•	AI Predictions Feedback:
+After interacting with AI-driven tools or predictions (e.g., traffic forecasts), users will be asked:
+o	How accurate did you find the AI prediction? (1–5 scale)
+o	What would improve your experience with AI services? (Open-ended)
+"We appreciate your participation! Your feedback will guide Calgary’s future initiatives."
